@@ -58,6 +58,6 @@ print(nums[-1])
 shopiing_list = ["dresses", "bakery items", "cream"]
 for i, shopiing_list in enumerate(shopiing_list):
     print(f"{i} -- {shopiing_list}")
-
+print("lesson 01 and 02 complete")
 
 
