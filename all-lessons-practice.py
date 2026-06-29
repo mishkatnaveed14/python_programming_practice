@@ -154,7 +154,6 @@ class bankAccount:
 
 func = bankAccount("nehu", 5000)
 func.deposit(5000)
-func.withdraw(20)
 # q---3
 class Student:
     def __init__(self,name,age,city,marks):
