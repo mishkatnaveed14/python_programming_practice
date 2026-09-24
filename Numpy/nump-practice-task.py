@@ -24,3 +24,12 @@ print(f"Higest Marks : {higest_marks}")
 print(f"lowest Marks : {lowest_marks}")
 
 # task ===> 5 
+Marks = np.array([35, 67, 89, 45, 90, 22, 70, 58])
+passed = Marks >= 50
+failed = Marks < 50
+print(f"Marks: {Marks}")
+print(f"Passed: {Marks[passed]}")
+print(f"Failed: {Marks[failed]}")
+print(f"Total Passed: {len(Marks[passed])}")
+print(f"Total Failed: {len(Marks[failed])}")
+
