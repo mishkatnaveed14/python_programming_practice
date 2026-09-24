@@ -14,3 +14,13 @@ array3 = np.array([1,2,3,4,5,6])
 new_array = array3.reshape(2,3)
 print(new_array)
 # task ==> 4
+marks = np.random.randint(40,100,10)
+average = marks.mean()
+higest_marks = marks.max()
+lowest_marks = marks.min()
+print(f"Marks: {marks}")
+print(f"Average : {average}")
+print(f"Higest Marks : {higest_marks}")
+print(f"lowest Marks : {lowest_marks}")
+
+# task ===> 5 
